@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+.ml {
+  margin-left: 180px;
+  color : red
+}
+
+span {
+  cursor: pointer;
+}
+
+.sort_selected ::after {
+  content: '\f00c';
+  font-family: FontAwesom;
+  font-weight: normal;
+  font-size: normal;
+  margin: 0px 0px 0px 10px;
+  display: inline-block;
+}
